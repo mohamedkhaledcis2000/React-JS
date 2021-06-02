@@ -29,10 +29,13 @@
       
     //   header Component  [Child component]
       class Header extends React.Component{
+          state = {
+            name:"Welcome to Header"
+          };
           render(){
               return(
                 <div>
-                    
+                    <p>{this.state.name}</p>        
                     <header>{this.props.title}</header>
                     <p>Hello From Header</p>
                 </div>
@@ -43,11 +46,14 @@
 
     //   footer component   [child component]
       class Footer extends React.Component{
+        state = {
+          name : "Welcome to my Footer"
+        };
           render(){
               return(
                 <div>
                     <footer>{this.props.title}</footer>
-                    <p>Hello From Footer</p>
+                    <p>{this.state.name}</p>
                 </div>
               );
           }
