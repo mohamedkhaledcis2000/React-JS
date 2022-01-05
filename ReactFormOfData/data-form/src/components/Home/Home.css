@@ -1,0 +1,66 @@
+.firstsection {
+    height: 650px;
+    background: radial-gradient(#fff, #ffd6d6) !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .firstsection {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .yourwork {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .yourwork {
+        margin-top: 100px;
+    }
+}
+
+.navbar-nav img {
+    width: 30px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.navbar-brand img {
+    width: 110px;
+}
+
+ul li a {
+    color: #555 !important;
+}
+
+@media only screen and (min-width: 991px) {
+    .workone {
+        padding-top: 120px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .workone {
+        padding-top: 90px;
+    }
+}
+
+.workone button {
+    border-radius: 30px;
+    width: 144px;
+    padding: 8px;
+    margin-top: 10px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+
+.workone button:hover {
+    background: #563434;
+}
+
+.workone h1 {
+    font-weight: 700 !important;
+}

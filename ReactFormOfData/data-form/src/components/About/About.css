@@ -1,0 +1,34 @@
+.aboutus {
+    background: radial-gradient(#fff, #ffd6d6) !important;
+    padding-top: 13px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.aboutus img {
+    width: 550px;
+    height: 550px;
+    margin-bottom: 15px;
+}
+
+.aboutus h2 {
+    text-align: center;
+    color: #555;
+}
+
+.aboutus hr {
+    width: 93px;
+    height: 5px;
+    margin: 0px auto;
+    background-color: #ff523b;
+    border-radius: 7px;
+    margin-bottom: 35px;
+}
+
+.aboutus .abouttext {
+    color: #8a8a8a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
